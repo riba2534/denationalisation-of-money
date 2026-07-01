@@ -1,0 +1,17 @@
+{
+  "name": "denationalisation-of-money",
+  "version": "1.0.0",
+  "description": "《货币的非国家化》哈耶克著 — 中文精校版电子书网站",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  },
+  "dependencies": {
+    "markdown-it-footnote": "^4.0.0"
+  }
+}

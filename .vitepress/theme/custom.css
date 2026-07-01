@@ -1,0 +1,151 @@
+/* 《货币的非国家化》电子书阅读样式 */
+
+:root {
+  --vp-font-family-base: 'Noto Serif SC', 'Source Han Serif SC', 'Songti SC', Georgia, serif;
+  --vp-font-family-mono: 'JetBrains Mono', 'SF Mono', Menlo, monospace;
+
+  /* 书籍质感的暖金色调 */
+  --vp-c-brand-1: #b8953f;
+  --vp-c-brand-2: #a88430;
+  --vp-c-brand-3: #8f6f1f;
+  --vp-c-brand-soft: rgba(184, 149, 63, 0.14);
+}
+
+.dark {
+  --vp-c-brand-1: #d4b87a;
+  --vp-c-brand-2: #c9a96e;
+  --vp-c-brand-3: #b8953f;
+  --vp-c-brand-soft: rgba(201, 169, 110, 0.16);
+}
+
+/* === 正文区 === */
+.vp-doc {
+  line-height: 1.85;
+  font-size: 17px;
+  font-family: var(--vp-font-family-base);
+}
+
+/* 段落首行缩进（中文书籍排版习惯） */
+.vp-doc p {
+  text-indent: 2em;
+  margin: 0.8em 0;
+}
+
+/* 标题后第一段不缩进 */
+.vp-doc h1 + p,
+.vp-doc h2 + p,
+.vp-doc h3 + p {
+  text-indent: 0;
+}
+
+/* 列表、引用、脚注内容不缩进 */
+.vp-doc li p,
+.vp-doc blockquote p,
+.vp-doc .footnotes p {
+  text-indent: 0;
+}
+
+/* === 标题 === */
+.vp-doc h1 {
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  border-bottom: 2px solid var(--vp-c-brand-1);
+  padding-bottom: 0.3em;
+  margin-bottom: 1em;
+}
+
+.vp-doc h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+  border-bottom: 1px solid var(--vp-c-divider);
+  padding-bottom: 0.2em;
+}
+
+.vp-doc h3 {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-top: 1.5em;
+}
+
+/* === 内容宽度 === */
+.VPDoc .container .content {
+  max-width: 780px;
+}
+
+/* === 图片 === */
+.vp-doc img {
+  display: block;
+  margin: 1.5em auto;
+  max-width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.dark .vp-doc img {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.vp-doc p:has(img) {
+  text-indent: 0;
+  text-align: center;
+}
+
+/* === 引用 === */
+.vp-doc blockquote {
+  border-left: 4px solid var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  font-style: normal;
+  border-radius: 0 4px 4px 0;
+}
+
+/* === 表格 === */
+.vp-doc table {
+  display: table;
+  width: auto;
+  margin: 1.5em auto;
+  border-collapse: collapse;
+  font-size: 0.95em;
+}
+
+.vp-doc table th {
+  background: var(--vp-c-brand-soft);
+  font-weight: 600;
+}
+
+.vp-doc table th,
+.vp-doc table td {
+  padding: 0.6em 1em;
+  border: 1px solid var(--vp-c-divider);
+}
+
+.vp-doc table tr:nth-child(even) td {
+  background: var(--vp-c-bg-soft);
+}
+
+/* === 脚注 === */
+.vp-doc .footnotes {
+  font-size: 0.9em;
+  color: var(--vp-c-text-2);
+  margin-top: 3em;
+  border-top: 1px solid var(--vp-c-divider);
+  padding-top: 1em;
+}
+
+.vp-doc .footnotes ol {
+  padding-left: 1.5em;
+}
+
+/* === 首页 hero 微调 === */
+.VPHome .VPHero .name {
+  font-weight: 700;
+}
+
+.VPHome .VPHero .image-container img {
+  border-radius: 8px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
