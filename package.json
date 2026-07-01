@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "《货币的非国家化》哈耶克著 — 中文精校版电子书网站",
   "type": "module",
+  "packageManager": "pnpm@10.28.1",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",

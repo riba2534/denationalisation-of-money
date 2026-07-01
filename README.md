@@ -75,7 +75,7 @@ denationalisation-of-money/
 
 ## 🛠 本地开发
 
-前置要求：[Node.js](https://nodejs.org/) 18+ 与 [pnpm](https://pnpm.io/) 9+。
+前置要求：[Node.js](https://nodejs.org/) 18+（CI 测试环境：Node 22）与 [pnpm](https://pnpm.io/) 10。
 
 ```bash
 # 克隆仓库

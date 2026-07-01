@@ -22,7 +22,12 @@ export default defineConfig({
     ['meta', { name: 'author', content: '弗里德里希·冯·哈耶克' }],
     ['meta', { property: 'og:title', content: '货币的非国家化' }],
     ['meta', { property: 'og:description', content: '哈耶克 著 · 姚中秋 译 — 中文精校版电子书' }],
-    ['meta', { property: 'og:type', content: 'book' }]
+    ['meta', { property: 'og:type', content: 'book' }],
+    ['meta', { property: 'og:image', content: 'https://free-money.fate.red/cover.jpg' }],
+    ['meta', { property: 'og:url', content: 'https://free-money.fate.red/' }],
+    ['meta', { property: 'og:locale', content: 'zh_CN' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:image', content: 'https://free-money.fate.red/cover.jpg' }]
   ],
 
   markdown: {
