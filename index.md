@@ -11,10 +11,10 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /00-翻译说明
+      link: /chapters/00-翻译说明
     - theme: alt
       text: 序言
-      link: /06-序言
+      link: /chapters/06-序言
 
 features:
   - icon: 📖
