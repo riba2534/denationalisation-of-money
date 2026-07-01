@@ -5,6 +5,7 @@
 ### *Denationalisation of Money* · 中文精校版电子书
 
 [![Website](https://img.shields.io/badge/在线阅读-free--money.fate.red-b8953f?style=for-the-badge&logo=GoogleChrome&logoColor=white)](https://free-money.fate.red)
+[![Release](https://img.shields.io/github/v/release/riba2534/denationalisation-of-money?style=for-the-badge&label=下载PDF&logo=adobeacrobatreader&logoColor=white&color=2A6DBB)](https://github.com/riba2534/denationalisation-of-money/releases/latest)
 [![VitePress](https://img.shields.io/badge/VitePress-1.6-646cff?style=for-the-badge&logo=Vite&logoColor=white)](https://vitepress.dev/)
 [![Cloudflare Pages](https://img.shields.io/badge/部署-Cloudflare%20Pages-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)](https://pages.cloudflare.com/)
 [![GitHub Actions](https://img.shields.io/badge/CI-GitHub%20Actions-2088FF?style=for-the-badge&logo=GitHubActions&logoColor=white)](https://github.com/features/actions)
@@ -39,9 +40,14 @@
 - 🌗 **深浅主题** — 一键切换，护眼长读
 - 🚀 **全球 CDN** — Cloudflare Pages 边缘网络加速
 
-## 🌐 在线阅读
+## 🌐 在线阅读 / 📥 下载 PDF
 
-**[free-money.fate.red](https://free-money.fate.red)**
+| 方式 | 链接 |
+|------|------|
+| 💻 在线网页版 | **[free-money.fate.red](https://free-money.fate.red)** |
+| 📕 下载 PDF（v1.0.0，241 页） | **[Releases](https://github.com/riba2534/denationalisation-of-money/releases/latest)** — 点击最新 release 下的 `货币的非国家化-数字版.pdf` 下载 |
+
+PDF 数字版由 Typst 现代排版生成，封面已嵌入本仓库链接，可点击跳转。
 
 ## 📂 目录结构
 
