@@ -45,7 +45,7 @@
 | 方式 | 链接 |
 |------|------|
 | 💻 在线网页版 | **[free-money.fate.red](https://free-money.fate.red)** |
-| 📕 下载 PDF（v1.0.0，241 页） | **[Releases](https://github.com/riba2534/denationalisation-of-money/releases/latest)** — 点击最新 release 下的 `货币的非国家化-数字版.pdf` 下载 |
+| 📕 下载 PDF（v1.0.0，241 页） | **[Releases](https://github.com/riba2534/denationalisation-of-money/releases/latest)** — 点击最新 release 下的 `denationalisation-of-money-digital.pdf` 下载 |
 
 PDF 数字版由 Typst 现代排版生成，封面已嵌入本仓库链接，可点击跳转。
 
