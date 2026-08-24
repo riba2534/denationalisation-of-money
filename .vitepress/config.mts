@@ -48,6 +48,7 @@ export default defineConfig({
     darkModeSwitchTitle: '切换到深色模式',
 
     socialLinks: [
+      { icon: 'x', link: 'https://x.com/riba2534' },
       { icon: 'github', link: 'https://github.com/riba2534/denationalisation-of-money' }
     ],
 
